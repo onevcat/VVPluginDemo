@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1A8430C16BC1CA30071C42F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A8430A16BC1CA30071C42F /* InfoPlist.strings */; };
+		D1A8431816BCAEBA0071C42F /* VVPluginDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A8431716BCAEBA0071C42F /* VVPluginDemo.m */; };
+		D1AD53E116BCB39F007DAB2F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AD53E016BCB39F007DAB2F /* Cocoa.framework */; };
+		D1AD53E316BCB3BC007DAB2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AD53E216BCB3BC007DAB2F /* CoreData.framework */; };
+		D1B83DD516BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B83DD416BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.m */; };
+		D1B83DD816BD07FB00A812F5 /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B83DD716BD07FB00A812F5 /* MethodSwizzle.m */; };
+		D1B83DDB16BD0B2D00A812F5 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B83DDA16BD0B2D00A812F5 /* DVTKit.framework */; };
+		D1DE38B016BD2B9C008D41C0 /* NSView+Dumping.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DE38AF16BD2B9C008D41C0 /* NSView+Dumping.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1A842FE16BC1CA30071C42F /* DemoPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A8430416BC1CA30071C42F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D1A8430616BC1CA30071C42F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1A8430916BC1CA30071C42F /* DemoPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoPlugin-Info.plist"; sourceTree = "<group>"; };
+		D1A8430B16BC1CA30071C42F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1A8430D16BC1CA30071C42F /* DemoPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		D1A8431616BCAEBA0071C42F /* VVPluginDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVPluginDemo.h; sourceTree = "<group>"; };
+		D1A8431716BCAEBA0071C42F /* VVPluginDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVPluginDemo.m; sourceTree = "<group>"; };
+		D1AD53E016BCB39F007DAB2F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D1AD53E216BCB3BC007DAB2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D1B83DD316BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionController+PluginDemo.h"; sourceTree = "<group>"; };
+		D1B83DD416BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionController+PluginDemo.m"; sourceTree = "<group>"; };
+		D1B83DD616BD07FB00A812F5 /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
+		D1B83DD716BD07FB00A812F5 /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzle.m; sourceTree = "<group>"; };
+		D1B83DD916BD089200A812F5 /* PrivateHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateHeader.h; sourceTree = "<group>"; };
+		D1B83DDA16BD0B2D00A812F5 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../Desktop/DVTKit.framework; sourceTree = "<group>"; };
+		D1DE38AE16BD2B9C008D41C0 /* NSView+Dumping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Dumping.h"; sourceTree = "<group>"; };
+		D1DE38AF16BD2B9C008D41C0 /* NSView+Dumping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Dumping.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A842FB16BC1CA30071C42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B83DDB16BD0B2D00A812F5 /* DVTKit.framework in Frameworks */,
+				D1AD53E316BCB3BC007DAB2F /* CoreData.framework in Frameworks */,
+				D1AD53E116BCB39F007DAB2F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1A842F516BC1CA30071C42F = {
+			isa = PBXGroup;
+			children = (
+				D1A8430716BC1CA30071C42F /* DemoPlugin */,
+				D1A8430016BC1CA30071C42F /* Frameworks */,
+				D1A842FF16BC1CA30071C42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A842FF16BC1CA30071C42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A842FE16BC1CA30071C42F /* DemoPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A8430016BC1CA30071C42F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1B83DDA16BD0B2D00A812F5 /* DVTKit.framework */,
+				D1AD53E016BCB39F007DAB2F /* Cocoa.framework */,
+				D1A8430316BC1CA30071C42F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A8430316BC1CA30071C42F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1AD53E216BCB3BC007DAB2F /* CoreData.framework */,
+				D1A8430416BC1CA30071C42F /* AppKit.framework */,
+				D1A8430616BC1CA30071C42F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D1A8430716BC1CA30071C42F /* DemoPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				D1B83DD616BD07FB00A812F5 /* MethodSwizzle.h */,
+				D1B83DD716BD07FB00A812F5 /* MethodSwizzle.m */,
+				D1A8430816BC1CA30071C42F /* Supporting Files */,
+				D1A8431616BCAEBA0071C42F /* VVPluginDemo.h */,
+				D1A8431716BCAEBA0071C42F /* VVPluginDemo.m */,
+				D1B83DD316BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.h */,
+				D1B83DD416BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.m */,
+				D1B83DD916BD089200A812F5 /* PrivateHeader.h */,
+				D1DE38AE16BD2B9C008D41C0 /* NSView+Dumping.h */,
+				D1DE38AF16BD2B9C008D41C0 /* NSView+Dumping.m */,
+			);
+			path = DemoPlugin;
+			sourceTree = "<group>";
+		};
+		D1A8430816BC1CA30071C42F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A8430916BC1CA30071C42F /* DemoPlugin-Info.plist */,
+				D1A8430A16BC1CA30071C42F /* InfoPlist.strings */,
+				D1A8430D16BC1CA30071C42F /* DemoPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A842FD16BC1CA30071C42F /* DemoPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A8431016BC1CA30071C42F /* Build configuration list for PBXNativeTarget "DemoPlugin" */;
+			buildPhases = (
+				D1A842FA16BC1CA30071C42F /* Sources */,
+				D1A842FB16BC1CA30071C42F /* Frameworks */,
+				D1A842FC16BC1CA30071C42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoPlugin;
+			productName = DemoPlugin;
+			productReference = D1A842FE16BC1CA30071C42F /* DemoPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A842F616BC1CA30071C42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "OneV's Den";
+			};
+			buildConfigurationList = D1A842F916BC1CA30071C42F /* Build configuration list for PBXProject "DemoPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1A842F516BC1CA30071C42F;
+			productRefGroup = D1A842FF16BC1CA30071C42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A842FD16BC1CA30071C42F /* DemoPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A842FC16BC1CA30071C42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A8430C16BC1CA30071C42F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A842FA16BC1CA30071C42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A8431816BCAEBA0071C42F /* VVPluginDemo.m in Sources */,
+				D1B83DD516BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.m in Sources */,
+				D1B83DD816BD07FB00A812F5 /* MethodSwizzle.m in Sources */,
+				D1DE38B016BD2B9C008D41C0 /* NSView+Dumping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1A8430A16BC1CA30071C42F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A8430B16BC1CA30071C42F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1A8430E16BC1CA30071C42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D1A8430F16BC1CA30071C42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D1A8431116BC1CA30071C42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPlugin/DemoPlugin-Prefix.pch";
+				INFOPLIST_FILE = "DemoPlugin/DemoPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		D1A8431216BC1CA30071C42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop\"",
+				);
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPlugin/DemoPlugin-Prefix.pch";
+				INFOPLIST_FILE = "DemoPlugin/DemoPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A842F916BC1CA30071C42F /* Build configuration list for PBXProject "DemoPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A8430E16BC1CA30071C42F /* Debug */,
+				D1A8430F16BC1CA30071C42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A8431016BC1CA30071C42F /* Build configuration list for PBXNativeTarget "DemoPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A8431116BC1CA30071C42F /* Debug */,
+				D1A8431216BC1CA30071C42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1A842F616BC1CA30071C42F /* Project object */;
+}
