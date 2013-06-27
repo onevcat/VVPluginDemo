@@ -1,2 +1,2 @@
 ## VVDemoPlugin
-It is a demo project for starting to write plug-in for Xcode 4. More information can be found in my [blog](http://www.onevcat.com/2013/02/xcode-plugin/).
+It is a demo project for starting to write plug-in for Xcode 4. I also have tested it in Xcode 5 DP and it seems work well. More information can be found in my [blog](http://www.onevcat.com/2013/02/xcode-plugin/).
