@@ -13,7 +13,7 @@
 		D1AD53E316BCB3BC007DAB2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AD53E216BCB3BC007DAB2F /* CoreData.framework */; };
 		D1B83DD516BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B83DD416BD07E100A812F5 /* DVTTextCompletionController+PluginDemo.m */; };
 		D1B83DD816BD07FB00A812F5 /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B83DD716BD07FB00A812F5 /* MethodSwizzle.m */; };
-		D1B83DDB16BD0B2D00A812F5 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B83DDA16BD0B2D00A812F5 /* DVTKit.framework */; };
+		D1D54A7D177C704400961698 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D54A7C177C704400961698 /* DVTKit.framework */; };
 		D1DE38B016BD2B9C008D41C0 /* NSView+Dumping.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DE38AF16BD2B9C008D41C0 /* NSView+Dumping.m */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		D1B83DD616BD07FB00A812F5 /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
 		D1B83DD716BD07FB00A812F5 /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzle.m; sourceTree = "<group>"; };
 		D1B83DD916BD089200A812F5 /* PrivateHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivateHeader.h; sourceTree = "<group>"; };
-		D1B83DDA16BD0B2D00A812F5 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../Desktop/DVTKit.framework; sourceTree = "<group>"; };
+		D1D54A7C177C704400961698 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = DemoPlugin/DVTKit.framework; sourceTree = "<group>"; };
 		D1DE38AE16BD2B9C008D41C0 /* NSView+Dumping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Dumping.h"; sourceTree = "<group>"; };
 		D1DE38AF16BD2B9C008D41C0 /* NSView+Dumping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Dumping.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,9 +43,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1B83DDB16BD0B2D00A812F5 /* DVTKit.framework in Frameworks */,
 				D1AD53E316BCB3BC007DAB2F /* CoreData.framework in Frameworks */,
 				D1AD53E116BCB39F007DAB2F /* Cocoa.framework in Frameworks */,
+				D1D54A7D177C704400961698 /* DVTKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 		D1A8430016BC1CA30071C42F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1B83DDA16BD0B2D00A812F5 /* DVTKit.framework */,
+				D1D54A7C177C704400961698 /* DVTKit.framework */,
 				D1AD53E016BCB39F007DAB2F /* Cocoa.framework */,
 				D1A8430316BC1CA30071C42F /* Other Frameworks */,
 			);
@@ -266,6 +266,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Desktop\"",
+					"\"$(SRCROOT)/DemoPlugin\"",
 				);
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -287,6 +288,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Desktop\"",
+					"\"$(SRCROOT)/DemoPlugin\"",
 				);
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
